@@ -28,7 +28,7 @@ The script relies on the included PyTorch model.
 
 ### 🔹 `attentivefp_model_final_full_data.pth`
 A trained **QSAR model** in PyTorch:
-- **GNN-based architecture** (Graph Attention / AttentiveFP)
+- **GNN-based architecture** (AttentiveFP)
 - trained on the full dataset
 - used to predict **pKi** values for CB2 agonists
 
