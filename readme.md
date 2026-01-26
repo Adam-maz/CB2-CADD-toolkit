@@ -115,7 +115,7 @@ If you use **tools, pipelines, or models provided in this repository** (e.g. for
 
 > **Adam Mazur** — *CADD tools for CB2 agonist discovery* (GitHub repository)
 
-This is an **informal citation** intended for acknowledgements, software citations, or methods sections when the repository is used as a research tool. At the moment, the code is not associated with a formal publication or institutional affiliation.
+This is an **informal citation** intended for acknowledgements, software citations, or methods sections when the repository is used as a research tool.
 
 ---
 
@@ -127,6 +127,4 @@ This is an **informal citation** intended for acknowledgements, software citatio
 - The code is intended for **research and proof-of-concept** purposes.
 
 ---
-
-If you want, I can further tune the README toward a **journal supplementary**, **grant proposal**, or **software paper** format.
 
