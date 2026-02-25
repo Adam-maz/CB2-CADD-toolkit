@@ -1,4 +1,5 @@
 # 🧬 CADD Toolkit for CB2 Agonists
+![CADD pipeline demo](hit_xy.gif)
 
 This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists**. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
 
