@@ -89,7 +89,8 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ### 🔹 `drugGen_generator.py`
 
-> Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
+> Script originating from https://huggingface.co/alimotahharynia/DrugGen,  
+> implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
 >  
 > **Source model:** DrugGen  
 > https://huggingface.co/alimotahharynia/DrugGen
@@ -144,7 +145,7 @@ Exploiting Pretrained Biochemical Language Models for Targeted Drug Design.
 
 ## 🧾 Citation of this repository
 
-If you use **presented compound, tools or models provided in this repository** (e.g. for CB2 agonist discovery or related molecular design tasks), please cite the repository author as:
+If you use **presented compound, tools, pipelines or models provided in this repository** (e.g. for CB2 agonist discovery or related molecular design tasks), please cite the repository author as:
 
 > **Adam Mazur** — *CADD tools for CB2 agonist discovery* (GitHub repository)
 
