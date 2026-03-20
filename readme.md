@@ -1,17 +1,18 @@
 # 🧬 CADD Toolkit for CB2 Agonists
 ![CADD pipeline demo](hit_repo_xy.gif)
 
-This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic cheminformatic analysis of certain compound, which was created via following wok. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
+This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic cheminformatic analysis CB2R's library and certain compound, which was created via following workflow. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
 
 ---
 
 ## 📦 Hit
-
-The proposed workflow allowed me to model this pyridine-3-sulfonamide derivative as a promising starting point for further development. Molecule binding capabilities were evaluated using a GNN-based QSAR model and subsequently refined with Boltz-2 prediction.
-To ensure the robustness of this screening protocol, I performed ensemble molecular docking against four crystal structures deposited in the PDB database: 8GUT, 8GUS, 8GUR, and 8GUQ.
-Docking results for 8GUQ are shown below.
+The proposed workflow allowed me to model this pyridine-3-sulfonamide derivative as a promising starting point for further development. Molecule binding capabilities were evaluated using a GNN-based QSAR (pKi = 8,2) model and subsequently refined with Boltz-2 (150 nM) prediction.
+To ensure the robustness of this screening protocol, I performed ensemble molecular docking against four crystal structures deposited in the PDB database: 8GUT, 8GUS, 8GUR, and 8GUQ. For docking assay I used AutoDock Vina implemented with DockingPie plugin (https://github.com/paiardin/DockingPie) for PyMol. PyMol was used for visualization purposes.
+Docking results for 8GUQ are shown below. As we can see, this molecule preserves all key interactions with CB2R. Additionaly, we can observe quite explicit alignment of pharmacophore elements between proposed compund and crystallized ligand, olorinab.
 ![Docking pose 1](8guq_without_olorinab.png)
+Proposed compound in the active site of 8GUQ crystal after molecular docking
 ![Docking pose 2](8guq_olorinab.png)
+Proposed compound (green) and crsytallized ligand, olorinab (white) in the active site of 8GUQ crystal after molecular docking
 I should note that this molecule is not the most promising candidate generated and assessed using this toolkit.
 
 
