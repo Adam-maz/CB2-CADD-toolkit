@@ -132,13 +132,15 @@ Exploiting Pretrained Biochemical Language Models for Targeted Drug Design.
 *Bioinformatics*. https://doi.org/10.1093/bioinformatics/btac482
 
 ```bibtex
-@article{Uludogan2022ChemBERTa,
-  title   = {Exploiting Pretrained Biochemical Language Models for Targeted Drug Design},
-  author  = {Uludoğan, Gökçe and Ozkirimli, Elif and Ulgen, Kutlu O. and Karalı, Nilgün Lütfiye and Özgür, Arzucan},
-  journal = {Bioinformatics},
-  year    = {2022},
-  doi     = {10.1093/bioinformatics/btac482}
+@article{10.1093/bioinformatics/btac482,
+    author = {Uludoğan, Gökçe and Ozkirimli, Elif and Ulgen, Kutlu O. and Karalı, Nilgün Lütfiye and Özgür, Arzucan},
+    title = "{Exploiting Pretrained Biochemical Language Models for Targeted Drug Design}",
+    journal = {Bioinformatics},
+    year = {2022},
+    doi = {10.1093/bioinformatics/btac482},
+    url = {https://doi.org/10.1093/bioinformatics/btac482}
 }
+
 ```
 
 ---
