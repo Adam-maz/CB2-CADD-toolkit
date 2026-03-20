@@ -1,14 +1,14 @@
 # ⚗️ CADD Toolkit for CB2 Agonists
 
-<br> <p align="center"> <img src="hit_repo_xy.gif" width="500"/> </p> <p align="center"><em>**Fig.1.** Hit molecule, **AM13**. Animation rendered using the **xyzrender** (https://github.com/aligfellow/xyzrender)</em></p>
+<br> <p align="center"> <img src="hit_repo_xy.gif" width="500"/> </p> <p align="center"><em>**Fig.1.** Hit molecule. Animation rendered using the **xyzrender** (https://github.com/aligfellow/xyzrender)</em></p>
 
-This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic docking analysis of AM13, which was created via following workflow. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
+This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic docking analysis of certain compound, which was created via following workflow. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
 
 ---
 
 ## 🧪 Hit
 
-The proposed workflow enabled the identification of AM13, a pyridine-3-sulfonamide derivative (CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1) as a promising starting point for further optimization. The binding affinity of the compound was initially estimated using a GNN-based QSAR model, yielding a predicted value of pKi = 8.2. This result was subsequently refined using the **Boltz-2** model, corresponding to an estimated binding affinity of approximately 150 nM.
+The proposed workflow enabled the identification of pyridine-3-sulfonamide derivative (CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1) as a promising starting point for further optimization. The binding affinity of the compound was initially estimated using a GNN-based QSAR model, yielding a predicted value of pKi = 8.2. This result was subsequently refined using the **Boltz-2** model, corresponding to an estimated binding affinity of approximately 150 nM.
 
 To ensure the robustness and reliability of the screening protocol, ensemble molecular docking was performed against four crystallographic structures of the CB2 receptor available in the Protein Data Bank (PDB): 8GUT, 8GUS, 8GUR, and 8GUQ. Docking simulations were conducted using **AutoDock Vina**, implemented via the **DockingPie** plugin for **PyMOL** (https://github.com/paiardin/DockingPie
 ). Molecular visualization and analysis were carried out in PyMOL (https://github.com/schrodinger/pymol-open-source) with the use of **show_contacts script** (https://github.com/dkoes/show_contacts).
