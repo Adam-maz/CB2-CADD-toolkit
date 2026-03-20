@@ -22,7 +22,6 @@ Representative docking results for the 8GUQ structure are presented below. The p
   <em><strong>Fig. 2.</strong> Proposed compound in the active site of the 8GUQ crystal structure following molecular docking.</em>
 </p>
 
-<br><br>
 
 <p align="center">
   <img src="8guq_olorinab.png" width="500"/>
@@ -35,6 +34,8 @@ Representative docking results for the 8GUQ structure are presented below. The p
 
 It should be noted that, although this compound demonstrates favorable properties, it does not represent the most promising candidate generated and evaluated using the present toolkit.
 
+---
+
 ## 📦 Repository Contents
 
 ### 🔹 `ChemBERT_module2.py`
@@ -43,7 +44,7 @@ Module implementing the **first LLM**, based on the ChemBERTa architecture, used
 **Source model:** ChemBERTaLM  
 https://huggingface.co/gokceuludogan/ChemBERTaLM
 
----
+--
 
 
 ### 🔹 `affinity_predictor.py`
