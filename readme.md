@@ -146,7 +146,7 @@ Exploiting Pretrained Biochemical Language Models for Targeted Drug Design.
 
 ## 🧾 Citation of this repository
 
-If you use **tools, pipelines, or models provided in this repository** (e.g. for CB2 agonist discovery or related molecular design tasks), please cite the repository author as:
+If you use **presented compound, tools or models provided in this repository** (e.g. for CB2 agonist discovery or related molecular design tasks), please cite the repository author as:
 
 > **Adam Mazur** — *CADD tools for CB2 agonist discovery* (GitHub repository)
 
