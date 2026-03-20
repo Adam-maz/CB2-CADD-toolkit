@@ -44,9 +44,6 @@ Module implementing the **first LLM**, based on the ChemBERTa architecture, used
 **Source model:** ChemBERTaLM  
 https://huggingface.co/gokceuludogan/ChemBERTaLM
 
---
-
-
 ### 🔹 `affinity_predictor.py`
 A **CLI script** for predicting binding affinity (`pKi`) toward CB2 using a trained QSAR model.
 
@@ -56,15 +53,11 @@ Features:
 
 The script relies on the included PyTorch model.
 
----
-
 ### 🔹 `attentivefp_model_final_full_data.pth`
 A trained **QSAR model** in PyTorch:
 - **GNN-based architecture** (AttentiveFP)
 - trained on the full dataset
 - used to predict **pKi** values for CB2 agonists
-
----
 
 ### 🔹 `gen-gnnVS.ipynb`
 A research notebook integrating the full CADD workflow:
@@ -75,16 +68,12 @@ A research notebook integrating the full CADD workflow:
 
 The notebook serves as a **generative + predictive CADD pipeline**.
 
----
-
 ### 🔹 `openbabel_converter.py`
 A **CLI utility** based on OpenBabel:
 - converts **SMILES → `.pdb` files**
 - input: a `.csv` file containing SMILES (passed as a path argument)
 
 Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.
-
----
 
 ### 🔹 `drugGen_generator.py`
 Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.
