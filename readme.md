@@ -94,7 +94,9 @@ It should be noted that, although this compound demonstrates favorable propertie
 > Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
 >  
 > **Source model:** DrugGen  
-> https://huggingface.co/alimotahharynia/DrugGen  
+> https://huggingface.co/alimotahharynia/DrugGen
+
+---
 
 ## 🧠 Summary
 The project combines:
