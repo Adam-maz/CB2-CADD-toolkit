@@ -39,48 +39,56 @@ It should be noted that, although this compound demonstrates favorable propertie
 ## 📦 Repository Contents
 
 ### 🔹 `ChemBERT_module2.py`
-Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.
+&nbsp;&nbsp;&nbsp;&nbsp;Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.  
+&nbsp;&nbsp;&nbsp;&nbsp;**Source model:** ChemBERTaLM  
+&nbsp;&nbsp;&nbsp;&nbsp;https://huggingface.co/gokceuludogan/ChemBERTaLM  
 
-**Source model:** ChemBERTaLM  
-https://huggingface.co/gokceuludogan/ChemBERTaLM
+---
 
 ### 🔹 `affinity_predictor.py`
-A **CLI script** for predicting binding affinity (`pKi`) toward CB2 using a trained QSAR model.
+&nbsp;&nbsp;&nbsp;&nbsp;A **CLI script** for predicting binding affinity (`pKi`) toward CB2 using a trained QSAR model.  
 
-Features:
-- prediction for **single SMILES strings**
-- batch prediction for **`.csv` files** (provided as a string path argument)
+&nbsp;&nbsp;&nbsp;&nbsp;**Features:**  
+&nbsp;&nbsp;&nbsp;&nbsp;- prediction for **single SMILES strings**  
+&nbsp;&nbsp;&nbsp;&nbsp;- batch prediction for **`.csv` files** (provided as a string path argument)  
 
-The script relies on the included PyTorch model.
+&nbsp;&nbsp;&nbsp;&nbsp;The script relies on the included PyTorch model.  
+
+---
 
 ### 🔹 `attentivefp_model_final_full_data.pth`
-A trained **QSAR model** in PyTorch:
-- **GNN-based architecture** (AttentiveFP)
-- trained on the full dataset
-- used to predict **pKi** values for CB2 agonists
+&nbsp;&nbsp;&nbsp;&nbsp;A trained **QSAR model** in PyTorch:  
+&nbsp;&nbsp;&nbsp;&nbsp;- **GNN-based architecture** (AttentiveFP)  
+&nbsp;&nbsp;&nbsp;&nbsp;- trained on the full dataset  
+&nbsp;&nbsp;&nbsp;&nbsp;- used to predict **pKi** values for CB2 agonists  
+
+---
 
 ### 🔹 `gen-gnnVS.ipynb`
-A research notebook integrating the full CADD workflow:
-- molecule generation using **LLMs**
-- `pKi` prediction using the GNN model
-- calculation of molecular descriptors
-- selection of candidates for downstream analysis (virtual screening)
+&nbsp;&nbsp;&nbsp;&nbsp;A research notebook integrating the full CADD workflow:  
+&nbsp;&nbsp;&nbsp;&nbsp;- molecule generation using **LLMs**  
+&nbsp;&nbsp;&nbsp;&nbsp;- `pKi` prediction using the GNN model  
+&nbsp;&nbsp;&nbsp;&nbsp;- calculation of molecular descriptors  
+&nbsp;&nbsp;&nbsp;&nbsp;- selection of candidates for downstream analysis (virtual screening)  
 
-The notebook serves as a **generative + predictive CADD pipeline**.
+&nbsp;&nbsp;&nbsp;&nbsp;The notebook serves as a **generative + predictive CADD pipeline**.  
+
+---
 
 ### 🔹 `openbabel_converter.py`
-A **CLI utility** based on OpenBabel:
-- converts **SMILES → `.pdb` files**
-- input: a `.csv` file containing SMILES (passed as a path argument)
+&nbsp;&nbsp;&nbsp;&nbsp;A **CLI utility** based on OpenBabel:  
+&nbsp;&nbsp;&nbsp;&nbsp;- converts **SMILES → `.pdb` files**  
+&nbsp;&nbsp;&nbsp;&nbsp;- input: a `.csv` file containing SMILES (passed as a path argument)  
 
-Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.
+&nbsp;&nbsp;&nbsp;&nbsp;Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.  
+
+---
 
 ### 🔹 `drugGen_generator.py`
-Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.
+&nbsp;&nbsp;&nbsp;&nbsp;Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
 
-**Source model:** DrugGen  
-https://huggingface.co/alimotahharynia/DrugGen
-
+&nbsp;&nbsp;&nbsp;&nbsp;**Source model:** DrugGen  
+&nbsp;&nbsp;&nbsp;&nbsp;https://huggingface.co/alimotahharynia/DrugGen
 ---
 
 
