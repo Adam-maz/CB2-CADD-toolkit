@@ -1,4 +1,4 @@
-# 🧬 CADD Toolkit for CB2 Agonists
+# ⚗️ CADD Toolkit for CB2 Agonists
 ![CADD pipeline demo](hit_repo_xy.gif)
 
 This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic cheminformatic analysis of certain compound, which was created via following workflow. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
@@ -16,7 +16,6 @@ Representative docking results for the 8GUQ structure are presented below. The p
 
 <br> <p align="center"> <img src="8guq_without_olorinab.png" width="500"/> </p> <p align="center"><em>Proposed compound in the active site of the 8GUQ crystal structure following molecular docking.</em></p>
 
-<br><br>
 
 <p align="center"> <img src="8guq_olorinab.png" width="500"/> </p> <p align="center"><em>Superposition of the proposed compound (green) and the co-crystallized ligand, olorinab (white), in the active site of the 8GUQ crystal structure.</em></p> <br>
 
