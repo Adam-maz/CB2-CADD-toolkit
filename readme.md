@@ -40,62 +40,61 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ### 🔹 `ChemBERT_module2.py`
 
-Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.  
-**Source model:** ChemBERTaLM  
-https://huggingface.co/gokceuludogan/ChemBERTaLM  
+> Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.  
+> **Source model:** ChemBERTaLM  
+> https://huggingface.co/gokceuludogan/ChemBERTaLM  
 
 ---
 
 ### 🔹 `affinity_predictor.py`
 
-A **CLI script** for predicting binding affinity (`pKi`) toward CB2 using a trained QSAR model.  
-
-**Features:**
-- prediction for **single SMILES strings**
-- batch prediction for **`.csv` files** (provided as a string path argument)
-
-The script relies on the included PyTorch model.  
+> A **CLI script** for predicting binding affinity (`pKi`) toward CB2 using a trained QSAR model.  
+>  
+> **Features:**  
+> - prediction for **single SMILES strings**  
+> - batch prediction for **`.csv` files** (provided as a string path argument)  
+>  
+> The script relies on the included PyTorch model.  
 
 ---
 
 ### 🔹 `attentivefp_model_final_full_data.pth`
 
-A trained **QSAR model** in PyTorch:
-- **GNN-based architecture** (AttentiveFP)
-- trained on the full dataset
-- used to predict **pKi** values for CB2 agonists  
+> A trained **QSAR model** in PyTorch:  
+> - **GNN-based architecture** (AttentiveFP)  
+> - trained on the full dataset  
+> - used to predict **pKi** values for CB2 agonists  
 
 ---
 
 ### 🔹 `gen-gnnVS.ipynb`
 
-A research notebook integrating the full CADD workflow:
-- molecule generation using **LLMs**
-- `pKi` prediction using the GNN model
-- calculation of molecular descriptors
-- selection of candidates for downstream analysis (virtual screening)
-
-The notebook serves as a **generative + predictive CADD pipeline**.  
+> A research notebook integrating the full CADD workflow:  
+> - molecule generation using **LLMs**  
+> - `pKi` prediction using the GNN model  
+> - calculation of molecular descriptors  
+> - selection of candidates for downstream analysis (virtual screening)  
+>  
+> The notebook serves as a **generative + predictive CADD pipeline**.  
 
 ---
 
 ### 🔹 `openbabel_converter.py`
 
-A **CLI utility** based on OpenBabel:
-- converts **SMILES → `.pdb` files**
-- input: a `.csv` file containing SMILES (passed as a path argument)
-
-Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.  
+> A **CLI utility** based on OpenBabel:  
+> - converts **SMILES → `.pdb` files**  
+> - input: a `.csv` file containing SMILES (passed as a path argument)  
+>  
+> Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.  
 
 ---
 
 ### 🔹 `drugGen_generator.py`
 
-Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
-
-**Source model:** DrugGen  
-https://huggingface.co/alimotahharynia/DrugGen  
-
+> Script implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
+>  
+> **Source model:** DrugGen  
+> https://huggingface.co/alimotahharynia/DrugGen  
 
 ## 🧠 Summary
 The project combines:
