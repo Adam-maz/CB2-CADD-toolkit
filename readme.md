@@ -60,7 +60,7 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ### 🔹 `attentivefp_model_final_full_data.pth`
 
-> A trained **QSAR model** in PyTorch:  
+> A trained **QSAR model**:  
 > - **GNN-based architecture** (AttentiveFP)  
 > - trained on the full dataset  
 > - used to predict **pKi** values for CB2 agonists  
@@ -71,7 +71,7 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 > A research notebook integrating the full CADD workflow:  
 > - molecule generation using **LLMs**  
-> - `pKi` prediction using the GNN model  
+> - **pKi** prediction using the GNN model  
 > - calculation of molecular descriptors  
 > - selection of candidates for downstream analysis (virtual screening)  
 >  
@@ -84,8 +84,6 @@ It should be noted that, although this compound demonstrates favorable propertie
 > A **CLI utility** based on OpenBabel:  
 > - converts **SMILES → `.pdb` files**  
 > - input: a `.csv` file containing SMILES (passed as a path argument)  
->  
-> Generated `.pdb` files can be directly used in **PyMOL**, **AutoDock**, **Vina**, or other docking software.  
 
 ---
 
