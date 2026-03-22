@@ -42,6 +42,19 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 > Compressed notebook (.ipynb) file with basic EDA of ligand library curated from ChEMBL and GNN training, optimization and evaluation.
 > Model was trained with the use of NVIDIA L4 GPU provided by Google Colab service.
+> **Model Performance (RMSE):**
+
+| Dataset           | RMSE      |
+|-------------------|-----------|
+| Train (0,7)       | 0.8264    |
+| Validation (0,15) | 0.8416    |
+| Test (0,15)       | 0.8390    |
+
+**Training and Validation Plot:**
+
+![Training vs Validation](plot.png)
+
+> The plot shows the progression of training and validation RMSE over epochs.
 ---
 
 ### 🔹 `df_cb2.xls`
