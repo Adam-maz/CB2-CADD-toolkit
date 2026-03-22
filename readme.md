@@ -74,7 +74,7 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ---
 
-### 🔹 `attentivefp_model_final_full_data.pth`
+### 🔹 `attentivefp_cb2_model.pth`
 
 > A trained **QSAR model**:  
 > - **GNN-based architecture** (AttentiveFP)  
