@@ -112,12 +112,13 @@ It should be noted that, although this compound demonstrates favorable propertie
 > - requires the trained model file (`.pth`) to be located in the same directory as the script.
 **Example Usage (Single SMILES):**
 
-```bash
-python affinity_predictor.py "CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1"
-```
-```bash
-python affinity_predictor.py "filepath\file.csv"
-```
+<p align="center">
+<code>python affinity_predictor.py "CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1"</code>
+</p>
+
+<p align="center">
+<code>python affinity_predictor.py "filepath\file.csv"</code>
+</p>
 
 ---
 
