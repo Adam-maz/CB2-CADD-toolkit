@@ -38,6 +38,22 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ## 📦 Repository Contents
 
+### 🔹 `GNN_notebook.7z`
+
+> Compressed notebook (.ipynb) file with basic EDA of ligand library curated from ChEMBL and GNN training, optimization and evaluation.
+> Model was trained with the use of NVIDIA L4 GPU provided by Google Colab service.
+---
+
+### 🔹 `df_cb2.xls`
+
+> Ligand library curated from the ChEMBL database.
+---
+
+### 🔹 `gnn_venv.yml`
+
+> Conda environment configuration file used for gen-gnnVS.ipynb and affinity_predictor.py.
+---
+
 ### 🔹 `ChemBERT_module2.py`
 
 > Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.  
