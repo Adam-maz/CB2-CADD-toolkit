@@ -108,7 +108,13 @@ It should be noted that, although this compound demonstrates favorable propertie
 >  
 > **Features:**  
 > - prediction for **single SMILES strings**  
-> - batch prediction for **`.csv` files** (provided as a string path argument)  
+> - batch prediction for **`.csv` files** (provided as a string path argument)
+> - requires the trained model file (`.pth`) to be located in the same directory as the script.
+**Example Usage (Single SMILES):**
+
+```bash
+python affinity_predictor.py "CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1"
+python affinity_predictor.py "filepath\file.csv"
 >  
 > The script relies on the included PyTorch model.  
 
