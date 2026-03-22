@@ -57,23 +57,19 @@ It should be noted that, although this compound demonstrates favorable propertie
 > The plot shows the progression of training and validation RMSE over epochs.
 ---
 
-### 🔹 `df_cb2.xls`
-
-> Ligand library curated from the ChEMBL database.
-
 **Data Visualizations:**
 
 1. **Class Distribution:**  
    ![Class Distribution](cb2_classes.png)  
-   Bar plot showing the number of records in each binary class.
+   *Fig.4: Bar plot showing the number of records in each binary class.*
 
 2. **pKi Distribution:**  
    ![pKi Distribution](cb2_pKi_distr.png)  
-   KDE plot displaying the distribution of pKi values across the ligand library.
+   *Fig.5: KDE plot displaying the distribution of pKi values across the ligand library.*
 
 3. **Scaffold Space:**  
    ![Scaffold Distribution](cb2_scaff_distr.png)  
-   UMAP projection of ligand scaffolds using ChemPlot, visualizing the chemical space.
+   *Fig.6: UMAP projection of ligand scaffolds using **ChemPlot**, visualizing the chemical space.*
 ---
 
 ### 🔹 `gnn_venv.yml`
