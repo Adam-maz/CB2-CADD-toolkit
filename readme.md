@@ -40,9 +40,10 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ### 🔹 `GNN_notebook.7z`
 
-> Compressed notebook (.ipynb) file with basic EDA of ligand library curated from ChEMBL and GNN training, optimization and evaluation.
-> Model was trained with the use of NVIDIA L4 GPU provided by Google Colab service.
-> **Model Performance (RMSE):**
+> Compressed notebook (.ipynb) file with basic EDA of ligand library curated from ChEMBL and GNN training, optimization and evaluation.  
+> The model was trained using an NVIDIA L4 GPU via Google Colab.
+
+**Model Performance (RMSE):**
 
 | Dataset           | RMSE      |
 |-------------------|-----------|
@@ -50,26 +51,42 @@ It should be noted that, although this compound demonstrates favorable propertie
 | Validation (0,15) | 0.8416    |
 | Test (0,15)       | 0.8390    |
 
-**Training and Validation Plot:**
+<p align="center">
+  <img src="plot.png" width="500"/>
+</p>
+<p align="center">
+  <em><strong>Fig.4.</strong> Training and validation RMSE progression over epochs.</em>
+</p>
 
-![Training vs Validation](plot.png)
-
-> The plot shows the progression of training and validation RMSE over epochs.
 ---
+
+### 🔹 `df_cb2.xls`
+
+> Ligand library curated from the ChEMBL database.
 
 **Data Visualizations:**
 
-1. **Class Distribution:**  
-   ![Class Distribution](cb2_classes.png)  
-   *Fig.4: Bar plot showing the number of records in each binary class.*
+<p align="center">
+  <img src="cb2_classes.png" width="500"/>
+</p>
+<p align="center">
+  <em><strong>Fig.5.</strong> Bar plot showing the number of records in each binary class.</em>
+</p>
 
-2. **pKi Distribution:**  
-   ![pKi Distribution](cb2_pKi_distr.png)  
-   *Fig.5: KDE plot displaying the distribution of pKi values across the ligand library.*
+<p align="center">
+  <img src="cb2_pKi_distr.png" width="500"/>
+</p>
+<p align="center">
+  <em><strong>Fig.6.</strong> KDE plot displaying the distribution of pKi values across the ligand library.</em>
+</p>
 
-3. **Scaffold Space:**  
-   ![Scaffold Distribution](cb2_scaff_distr.png)  
-   *Fig.6: UMAP projection of ligand scaffolds using **ChemPlot**, visualizing the chemical space.*
+<p align="center">
+  <img src="cb2_scaff_distr.png" width="500"/>
+</p>
+<p align="center">
+  <em><strong>Fig.7.</strong> UMAP projection of ligand scaffolds using <strong>ChemPlot</strong>, visualizing the chemical space.</em>
+</p>
+
 ---
 
 ### 🔹 `gnn_venv.yml`
