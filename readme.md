@@ -8,7 +8,7 @@ This repository provides a collection of tools for **Computer-Aided Drug Design 
 
 ## 🧪 Hit
 
-The proposed workflow enabled the identification of pyridine-3-sulfonamide derivative (CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1) as a promising starting point for further optimization. The binding affinity of the compound was initially estimated using a GNN-based QSAR model, yielding a predicted value of pKi = 8.2. This result was subsequently refined using the **Boltz-2** model, corresponding to an estimated binding affinity of approximately 150 nM.
+The proposed workflow enabled the identification of pyridine-3-sulfonamide derivative (CCc1cc(C(C)(C)C)cc(S(=O)(=O)N(C)c2cccnc2)c1) as a promising starting point for further optimization. The binding affinity of the compound was initially estimated using a GNN-based QSAR model, yielding a predicted value of pKi = 7.106048. This result was subsequently refined using the **Boltz-2** model, corresponding to an estimated binding affinity of approximately 150 nM.
 
 To ensure the robustness and reliability of the screening protocol, ensemble molecular docking was performed against four crystallographic structures of the CB2 receptor available in the Protein Data Bank (PDB): 8GUT, 8GUS, 8GUR, and 8GUQ. Docking simulations were conducted using **AutoDock Vina**, implemented via the **DockingPie** plugin for **PyMOL** (https://github.com/paiardin/DockingPie
 ). Molecular visualization and analysis were carried out in PyMOL (https://github.com/schrodinger/pymol-open-source) with the use of **show_contacts script** (https://github.com/dkoes/show_contacts).
