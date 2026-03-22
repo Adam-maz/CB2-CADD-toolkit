@@ -13,7 +13,7 @@ class Predictor:
     def __init__(self, text):
         self.text = text
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        self.model = AttentiveFP(in_channels=9, hidden_channels=96, out_channels=1, edge_dim=3, num_layers=6, num_timesteps=3, dropout=0.042543)
+        self.model = AttentiveFP(in_channels=9, hidden_channels=128, out_channels=1, edge_dim=3, num_layers=4, num_timesteps=3, dropout=0.306654)
         self.state_dict = torch.load("attentivefp_model_final_full_data.pth", map_location=self.device)
     
     def load_model(self):
@@ -37,7 +37,7 @@ class Predictor:
         return self.graphs_list
 
     def dataloader(self):
-        self.loader = DataLoader(self.graphs_list, batch_size=64, shuffle=False)
+        self.loader = DataLoader(self.graphs_list, batch_size=32, shuffle=False)
         return self.loader
 
     @torch.no_grad()
