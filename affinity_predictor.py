@@ -14,7 +14,7 @@ class Predictor:
         self.text = text
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.model = AttentiveFP(in_channels=9, hidden_channels=128, out_channels=1, edge_dim=3, num_layers=4, num_timesteps=3, dropout=0.306654)
-        self.state_dict = torch.load("attentivefp_model_final_full_data.pth", map_location=self.device)
+        self.state_dict = torch.load("attentivefp_cb2_model.pth", map_location=self.device)
     
     def load_model(self):
         self.model.load_state_dict(self.state_dict)
