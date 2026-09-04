@@ -2,7 +2,7 @@
 
 <br> <p align="center"> <img src="hit_repo_xy.gif" width="500"/> </p> <p align="center"><em>**Fig.1.** Hit molecule. Animation rendered using the **xyzrender** (https://github.com/aligfellow/xyzrender)</em></p>
 
-This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic docking analysis of certain compound, which was created via following workflow. The project integrates **large language models (LLMs)** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
+This repository provides a collection of tools for **Computer-Aided Drug Design (CADD)** focused on **CB2 receptor agonists** as well as basic docking analysis of certain compound, which was created via following workflow. The project integrates **transformer-based generative model** for molecule generation with a **GNN-based QSAR model** for affinity prediction, along with auxiliary utilities for chemical structure processing.
 
 ---
 
