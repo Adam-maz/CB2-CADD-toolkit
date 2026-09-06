@@ -96,7 +96,7 @@ It should be noted that, although this compound demonstrates favorable propertie
 
 ### 🔹 `ChemBERT_module2.py`
 
-> Module implementing the **first LLM**, based on the ChemBERTa architecture, used for working with SMILES representations.  
+> Module implementing the **first transformer**, based on the ChemBERTa architecture, used for working with SMILES representations.  
 > **Source model:** ChemBERTaLM  
 > https://huggingface.co/gokceuludogan/ChemBERTaLM  
 
@@ -133,7 +133,7 @@ python affinity_predictor.py "filepath\file.csv"
 ### 🔹 `gen-gnnVS.ipynb`
 
 > A research notebook integrating the full CADD workflow:  
-> - molecule generation using **LLMs**  
+> - molecule generation using **transformers**  
 > - **pKi** prediction using the GNN model  
 > - calculation of molecular descriptors  
 > - selection of candidates for downstream analysis (virtual screening)  
@@ -153,7 +153,7 @@ python affinity_predictor.py "filepath\file.csv"
 ### 🔹 `drugGen_generator.py`
 
 > Script originating from https://huggingface.co/alimotahharynia/DrugGen,  
-> implementing the **second LLM**, which generates molecules based on **biological (protein) sequences**.  
+> implementing the **second transformer**, which generates molecules based on **biological (protein) sequences**.  
 >  
 > **Source model:** DrugGen  
 > https://huggingface.co/alimotahharynia/DrugGen
@@ -162,7 +162,7 @@ python affinity_predictor.py "filepath\file.csv"
 
 ## 🧠 Summary
 The project combines:
-- **LLM-based molecular generation** (ChemBERTaLM, DrugGen)
+- **transformer-based molecular generation** (ChemBERTaLM, DrugGen)
 - **GNN-based QSAR modeling** for affinity (`pKi`) prediction
 - **CLI tools** for prediction and structure conversion
 
